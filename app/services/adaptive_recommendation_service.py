@@ -144,7 +144,6 @@ class AdaptiveRecommendationService:
         if query:
             vector_recs = self._get_vector_search_recommendations(preferences, query, limit)
         else:
-            # Home page: use user's top genres as implicit query for vector search
             top_genres = preferences.get("preferences", {}).get("genres", {})
             sorted_genres = sorted(top_genres.items(), key=lambda x: x[1], reverse=True)[:3]
             implicit_query = " ".join([g for g, s in sorted_genres if s > 0.5]) if sorted_genres else ""

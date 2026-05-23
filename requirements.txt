@@ -13,6 +13,8 @@ torchvision==0.16.0
 numpy==1.24.3
 scikit-learn==1.3.2
 pandas==2.1.3
+transformers==4.37.0
+sentence-transformers~=3.0.0
 
 # LangChain & OpenAI
 langchain==0.1.12
@@ -30,6 +32,4 @@ passlib[bcrypt]==1.7.4
 bcrypt==4.0.1
 python-dotenv==1.0.0
 requests==2.31.0
-transformers==4.37.0
-sentence-transformers~=3.0.0
 httpx==0.27.2

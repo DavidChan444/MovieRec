@@ -44,10 +44,10 @@
         </div>
 
         <div class="info-tips">
-          <div class="tip-item">💡 支持自然语言对话</div>
-          <div class="tip-item">⭐ 智能分析观影偏好</div>
-          <div class="tip-item">📝 对话历史自动保存</div>
-          <div class="tip-item">🎯 自适应个性化推荐</div>
+          <div class="tip-item"> 支持自然语言对话</div>
+          <div class="tip-item"> 智能分析观影偏好</div>
+          <div class="tip-item"> 对话历史自动保存</div>
+          <div class="tip-item"> 自适应个性化推荐</div>
         </div>
       </div>
     </div>

@@ -54,10 +54,10 @@ async def health_check():
 
 
 if __name__ == "__main__":
-    print(f"🚀 启动 {settings.APP_NAME} v{settings.VERSION}")
-    print(f"🔗 访问地址: http://localhost:8000")
-    print(f"📚 API文档: http://localhost:8000/docs")
-    print(f"🎯 功能: 多算法推荐 + 用户行为学习 + 个性化推荐")
+    print(f" 启动 {settings.APP_NAME} v{settings.VERSION}")
+    print(f" 访问地址: http://localhost:8000")
+    print(f" API文档: http://localhost:8000/docs")
+    print(f" 功能: 多算法推荐 + 用户行为学习 + 个性化推荐")
 
     uvicorn.run(
         "app.main:app",
